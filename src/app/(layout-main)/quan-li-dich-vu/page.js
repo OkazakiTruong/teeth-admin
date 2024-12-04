@@ -10,18 +10,18 @@ import { useRouter } from "next/navigation";
 const { Search } = Input;
 const data = [
   {
-    img: "/img/service-img/cap_cuu_247.jpg",
-    name: "Cấp cứu 24/24",
+    img: "/img/service-img/kham-tong-quat.jpg",
+    name: "Khám tổng quát răng miệng",
     detail:
-      "Dịch vụ hoạt động 24/24, hãy liên hệ hotline của Petpals để chúng tôi hỗ trợ bạn kịp thời",
-    link: "/dich-vu/cap-cuu-24-24",
+      "Dịch vụ khám tổng quát răng miệng tại Dental Clinic bao gồm nhiều dịch vụ kèm nhiều ưu đãi tới những người mới khám lần đầu",
+    link: "/dich-vu/kham-tong-quat-rang-mieng",
   },
   {
-    img: "/img/service-img/tiem-vaccine.jpg",
-    name: "Tiêm phòng Vaccine",
+    img: "/img/service-img/dieu-tri-sau-rang.jpg",
+    name: "Điều trị sâu răng",
     detail:
-      "Chúng tôi sử dụng vaccine hàng đầu từ Mỹ và Châu Âu. Bạn sẽ luôn an tâm với lựa chọn tiên chủng tại Petpals",
-    link: "/dich-vu/tiem-phong-vaccine",
+      "Dịch vụ điều trị sâu răng là một trong những dịch vụ cơ bản thường được mọi người tới thăm khám thường xuyên",
+    link: "/dich-vu/dieu-tri-sau-rang",
   },
   {
     img: "/img/service-img/kham_benh.jpg",
@@ -31,67 +31,67 @@ const data = [
     link: "/dich-vu/kham-suc-khoe",
   },
   {
-    img: "/img/service-img/sieu_am.jpg",
-    name: "Siêu âm - nội khoa",
+    img: "/img/service-img/viem-nha-chu.webp",
+    name: "Viêm nha chu",
     detail:
-      "Chúng tôi có máy siêu âm chuyên dụng phục vụ các BOSS đến siêu âm thai, nội khoa, chuyên khoa.",
-    link: "/dich-vu/sieu-am-x-quang-xet-nghiem",
+      "Viêm nha chu là một bệnh lý răng miệng thường gặp, không chỉ gây hại cho mô mềm và phá hủy xương xung quanh răng mà còn khiến răng lung lay...",
+    link: "/dich-vu/viem-nha-chu",
   },
   {
-    img: "/img/service-img/chup-xquang.jpg",
-    name: "Chụp X - Quang",
+    img: "/img/service-img/tram-rang.jpg",
+    name: "Trám răng",
     detail:
-      "Dịch vụ chụp X - Quang chất lượng cao phục vụ cho chẩn đoán hình ảnh, phẫu thuật xương khớp hiệu quả.",
-    link: "/dich-vu/sieu-am-x-quang-xet-nghiem",
+      "Nụ cười rạng rỡ là điểm cộng cho sự tự tin và thành công của mỗi cá nhân mỗi khi đi ra ngoài cũng như gặp gỡ mọi người mọi lúc mọi nơi.",
+    link: "/dich-vu/tram-rang",
   },
   {
-    img: "/img/service-img/phau_thuat.jpg",
-    name: "Phẫu thuật ngoại khoa",
+    img: "/img/service-img/tay-trang-rang.webp",
+    name: "Tẩy trắng răng",
     detail:
-      "Đội ngũ bác sĩ của chúng tôi đã thực hiện rất nhiều ca phẫu thuật đa chấn thương cứu sống các bạn vật nuôi",
-    link: "/dich-vu/phau-thuat-ngoai-khoa",
+      "Tẩy trắng răng là phương pháp không xâm lấn giúp làm sáng bề mặt răng đồng thời cũng giúp răng loại bỏ đi những vi khuẩn gây hại bám xung quanh răng giúp răng chắc khoẻ.",
+    link: "/dich-vu/tay-trang-rang",
   },
   {
-    img: "/img/service-img/dich-vu-triet-san-1-425x313.jpg",
-    name: "Triệt sản thẩm mỹ",
+    img: "/img/service-img/lay-cao-rang.jpg",
+    name: "Lấy cao răng",
     detail:
-      "Petpal là nơi gửi gắm các bạn thú cưng cần triệt sản, không đau, không xấu, vết mổ liền nhanh.",
-    link: "/dich-vu/triet-san",
+      "Lấy cao răng là thủ thuật nha khoa để loại bỏ những mảng bám, vôi răng bám xung quanh hàm răng của bạn.",
+    link: "/dich-vu/lay-cao-rang",
   },
   {
-    img: "/img/service-img/ho_sinh.jpg",
-    name: "Đỡ đẻ hộ sinh",
+    img: "/img/service-img/dan-su.webp",
+    name: "Dán sứ Veneer",
     detail:
-      "Bác sĩ cùng trang thiết bị tại Petpals luôn túc trực cùng các bé cún, miu cho một kỳ vượt cạn an toàn.",
-    link: "/dich-vu/do-de-ho-sinh",
+      "Dán răng sứ Veneer là sử dụng miếng dán sứ mỏng, gắn cố định lên bề mặt răng giúp răng trắng sáng đồng thời bảo vệ răng khỏi các tác nhân bên ngoài.",
+    link: "/dich-vu/dan-su-veneer",
   },
   {
     img: "/img/service-img/lay_cao_rang.jpg",
     name: "Lấy cao răng",
     detail:
-      "Răng thú cưng ố vàng làm mất thẩm mỹ, mảng bám làm miệng có mùi hôi, viêm lợi, sâu răng, và khó khăn trong việc ăn uống? Đừng lo, Petpals đã có giải pháp lý tưởng cho thú cưng của bạn!",
+      "Răng thú cưng ố vàng làm mất thẩm mỹ, mảng bám làm miệng có mùi hôi, viêm lợi, sâu răng, và khó khăn trong việc ăn uống? Đừng lo, Dental Clinic đã có giải pháp lý tưởng cho thú cưng của bạn!",
     link: "/dich-vu/lay-cao-rang",
   },
   {
-    img: "/img/service-img/kham_benh2.jpg",
-    name: "Khám sức khỏe",
+    img: "/img/service-img/boc-su.webp",
+    name: "Bọc răng sứ Ceramill",
     detail:
-      "Bạn mới đón thú cưng về và muốn kiểm tra xem bé có đang gặp phải vấn đề gì về sức khoẻ không? Hoặc đơn giản là bạn muốn kiểm tra, tầm soát sức khoẻ hàng năm cho bé thú cưng của mình? ",
-    link: "/dich-vu/kham-benh",
+      "Răng sứ Ceramill là loại răng làm hoàn toàn từ sứ, có nguồn gốc từ công nghệ Đức giúp bảo tồn răng gốc, bảo hành trọn đời.",
+    link: "/dich-vu/boc-rang-su-ceramill",
   },
   {
-    img: "/img/service-img/spa.jpg",
-    name: "Spa-grooming",
+    img: "/img/service-img/nieng-rang.jpg",
+    name: "Niềng răng mắc cài",
     detail:
-      "Dịch vụ tắm, spa, cắt tỉa lông, làm đẹp, chúng tôi luôn chăm sóc cẩn thận, chu đáo, kỹ càng nhất cho thú cưng của bạn.",
-    link: "/dich-vu/spa-grooming",
+      "Hiệu quả chỉnh nha cao: Niềng răng mắc cài kim loại mang đến hiệu quả cao giúp nắn chỉnh răng về đúng vị trí, cải thiện khớp cắn.",
+    link: "/dich-vu/nieng-rang-mac-cai",
   },
   {
-    img: "/img/service-img/khachsan.jpg",
-    name: "Khách sạn thú cưng",
+    img: "/img/service-img/trong-rang.jpg",
+    name: "Trồng răng Implant",
     detail:
-      "Địa chỉ tin cậy với hệ thống lưu trú chất lượng. “Sen” sẽ hoàn toàn yên tâm khi vắng mặt, hoặc cần nghỉ ngơi.",
-    link: "/dich-vu/khach-san-thu-cung",
+      "Trì hoãn quá lâu việc trồng răng có thể dẫn đến hậu quả nghiêm trọng, lâu dần xương hàm ở vị trí răng mất bị tiêu xương dẫn đến tình trạng hóp má.",
+    link: "/dich-vu/trong-rang-implant",
   },
 ];
 
@@ -198,17 +198,12 @@ export default function Page() {
                 {article.name}
               </div>
               <div
-                className="table-column"
-                style={{
-                  display: "flex",
-                  justifyContent: "flex-start",
-                  textAlign: "justify",
-                }}
+                className="table-column column-content"
               >
                 {article.detail}
               </div>
               <div className="table-column">08/07/2018</div>
-              <div className="table-column">Bùi Quang Trưởng</div>
+              <div className="table-column">Đặng Thị Minh Thanh</div>
               <div className="table-column table-edit">
                 <Image
                   src="/icon/tabler_edit.svg"

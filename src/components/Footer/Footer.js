@@ -11,7 +11,7 @@ export default function Footer() {
         fontSize: "16px",
       }}
     >
-      Copyright © 2024 Petpals. All Rights Reserved
+      Copyright © 2024 Dental Clinic. All Rights Reserved
     </footer>
   );
 }

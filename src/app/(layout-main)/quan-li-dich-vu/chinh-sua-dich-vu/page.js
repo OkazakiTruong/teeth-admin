@@ -33,7 +33,7 @@ export default function Page() {
         Chọn ảnh nền:
       </h3>
       <Image
-        src="/img/service-img/cap_cuu_247.jpg"
+        src="/img/service-img/kham-tong-quat.jpg"
         width={221}
         height={221}
         style={{ borderRadius: "10px", objectFit: "cover" }}
@@ -47,7 +47,7 @@ export default function Page() {
         <input
           type="text"
           placeholder="Nhập vào tiêu đề bài viết"
-          defaultValue={`Dịch vụ cấp cứu 24/24`}
+          defaultValue={`Khám tổng quát răng miệng`}
         />
       </div>
       <div className="input-row">
@@ -56,7 +56,7 @@ export default function Page() {
           <input
             type="text"
             placeholder="Nhập vào tên tác giả"
-            defaultValue="Bùi Quang Trưởng"
+            defaultValue="Minh Thanh"
           />
         </div>
         <div className="input-group">
@@ -64,7 +64,7 @@ export default function Page() {
           <DatePicker
             style={{ height: 40, width: 327 }}
             placeholder="Chọn ngày"
-            defaultValue={dayjs("2024-02-03")}
+            defaultValue={dayjs("2018-07-08")}
           />
         </div>
       </div>
@@ -73,66 +73,31 @@ export default function Page() {
         <CustomEditor
           initialData={`        <div className="service-content">
           <p>
-            Khi thú cưng của bạn gặp phải các tình huống khẩn cấp, nguy hiểm
-            như khó đẻ, nuốt dị vật, ngộ độc, tai nạn, cắn nhau,… hãy liên hệ
-            ngay với chi nhánh Petpals gần bạn nhất để nhận được các hỗ trợ y tế
-            kịp thời. Dịch vụ cấp cứu thú cưng của chúng tôi hoạt động 24/24 tất
-            cả các ngày bao gồm cả các ngày cuối tuần và lễ, tết. Dưới đây là
-            thông tin liên hệ của các chi nhánh Petpals, vì tính cấp bách hãy
-            liên hệ ngay tới hotline chi nhánh gần bạn nhất để nhận được hỗ trợ
-            kịp thời:
+            Dịch vụ khám tổng quát răng miệng tại Dental Clinic bao gồm các bước như sau:
           </p>
-          <p>
-            Để đảm bảo rằng thú cưng của bạn luôn nhận được sự chăm sóc tốt
-            nhất. Petpals có đội ngũ bác sĩ thú y giàu kinh nghiệm, được đào tạo
-            bài bản, chuyên sâu luôn sẵn sàng đáp ứng mọi tình huống khẩn cấp,
-            cấp cứu liên quan đến sức khỏe của thú cưng của bạn.
-          </p>
-          <p>
-            Bên cạnh đó, hệ thống không ngừng nâng cấp và đầu tư các trang thiết
-            bị y tế hiện đại và công nghệ tiên tiến giúp chẩn đoán chính xác và
-            điều trị hiệu quả. Sử dụng các dụng cụ và thiết bị y tế hàng đầu
-            trong ngành thú y để đảm bảo khả năng chẩn đoán nhanh chóng và xử lý
-            các tình huống khẩn cấp một cách chính xác.
-          </p>
-          <div>
-            <p>
-              Với dịch vụ cấp cứu thú cưng 24/24 của Petpals, bạn có thể yên tâm
-              vì:
-            </p>
-            <ul style ={{listStyle:"inherit"}}>
-              <li>
-                Dịch vụ hoạt động 24/24 tất cả các ngày trong tuần bao gồm cả
-                các ngày nghỉ và lễ tết.
-              </li>
-              <li>
-                Đội ngũ bác sĩ và nhân viên luôn sẵn sàng túc trực, với kinh
-                nghiệm và kiến thức chuyên môn, họ sẽ đưa ra những quyết định
-                nhanh chóng và chính xác để cứu sống, cải thiện tình trạng sức
-                khỏe cho thú cưng của bạn.
-              </li>
-              <li>
-                Petpals hiểu rằng trong mọi tình huống khẩn cấp, thú cưng của
-                bạn cận có sự chăm sóc và điều trị ngay lập tức. Do vậy, chúng
-                tôi đặt sự ưu tiên cao nhất cho các trường hợp này, đảm bảo thú
-                cưng của bạn nhận được sự chăm sóc và điều trị ngay khi được
-                tiếp nhận.
-              </li>
-              <li>
-                Các thiết bị máy móc, vật tư y tế và dụng cụ hỗ trợ quá trình
-                cấp cứu luôn sẵn sàng.
-              </li>
-              <li>
-                Chúng tôi luôn tận dụng tối đa mọi nguồn lực để tiết kiệm chi
-                phí cho khách hàng, bạn có thể yên tâm rằng sẽ luôn nhận được
-                chất lượng dịch vụ tốt nhất với chi phí phù hợp.
-              </li>
-            </ul>
-            Đội ngũ Petpals sẽ đồng hành cùng bạn và thú cưng của mình trong mọi
-            tình huống khẩn cấp, cấp cứu. Chúng tôi luôn sẵn sàng để hỗ trợ và
-            đảm bảo rằng thú cưng của bạn nhận được sự chăm sóc y tế tốt nhất,
-            bất kể khung thời gian hay tình huống khẩn cấp nào.
-          </div>
+          <ol>
+            <li>
+                1. Khám tổng quát và kiểm tra tình trạng răng miệng:
+                <p>Nha sĩ sẽ kiểm tra tổng thể khoang miệng, bao gồm răng, nướu, và xương hàm để phát hiện các vấn đề về sâu răng, viêm nướu, hoặc những bất thường khác. Điều này bao gồm việc kiểm tra màu sắc, hình dáng, và vị trí của từng chiếc răng cũng như tình trạng chung của nướu.</p>
+            </li>
+            <li>
+                2. Chụp X-quang (nếu cần thiết):
+                <p>Trong một số trường hợp, nha sĩ sẽ yêu cầu chụp X-quang để kiểm tra sâu hơn các cấu trúc bên dưới nướu, giúp phát hiện những vấn đề không thể nhìn thấy bằng mắt thường như răng sâu ẩn, răng khôn mọc lệch, hay những dấu hiệu của bệnh lý xương hàm.</p>
+            </li>
+            <li>
+                3. Tư vấn về vệ sinh và chăm sóc răng miệng:
+                <p>Sau khi kiểm tra, nha sĩ sẽ tư vấn về cách chăm sóc răng miệng tại nhà như cách chải răng đúng cách, sử dụng chỉ nha khoa, và chế độ ăn uống phù hợp để duy trì sức khỏe răng miệng tốt.</p>
+            </li>
+            <li>
+                4. Lên kế hoạch điều trị (nếu phát hiện vấn đề):
+                <p>Nếu phát hiện ra các vấn đề cần điều trị, nha sĩ sẽ lên kế hoạch chi tiết về các bước điều trị tiếp theo, ví dụ như hàn răng, làm sạch cao răng, hoặc thậm chí là nhổ răng khôn. Các bước này sẽ được thảo luận kỹ với bệnh nhân để đảm bảo phù hợp với tình trạng răng miệng và mong muốn cá nhân của họ.</p>
+            </li>
+            <li>
+                5. Tư vấn và nhắc nhở lịch tái khám:
+                <p>Nha sĩ sẽ khuyên bệnh nhân nên tái khám định kỳ, thường là mỗi 6 tháng để đảm bảo sức khỏe răng miệng được duy trì tốt và phát hiện sớm các vấn đề tiềm ẩn.</p>
+            </li>
+          </ol>
+          <p>Đến với Dental Clinic không chỉ giúp đảm bảo sức khỏe răng miệng mà còn mang lại sự an tâm cho bệnh nhân thông qua quá trình chăm sóc chu đáo và tư vấn tận tình từ các bác sĩ có tay nghề cao.</p>          
         </div>`}
         />
       </div>
