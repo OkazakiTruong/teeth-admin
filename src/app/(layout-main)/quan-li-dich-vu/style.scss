@@ -39,3 +39,14 @@
     background-color: $RED_600;
   }
 }
+
+.column-content {
+  padding: 0 10px;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  max-height: 3em;
+  line-height: 1.5em;
+}
