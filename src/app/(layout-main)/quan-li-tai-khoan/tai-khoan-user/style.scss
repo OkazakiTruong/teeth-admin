@@ -1,0 +1,60 @@
+@import "../../../../style/variable.scss";
+@import "../../../../style/base.scss";
+
+.table-row {
+  display: grid;
+  grid-template-columns: 0.75fr 2.5fr 1fr 1.5fr 4fr 1.75fr 1.75fr;
+  background-color: white;
+  padding: 10px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+}
+.table-heading {
+  background-color: $BROWN_500;
+  color: white;
+}
+.table-column {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.table-edit {
+  justify-content: space-between;
+  padding: 0 20px;
+  img {
+    cursor: pointer;
+  }
+}
+.add-new-btn {
+  width: 213px;
+  height: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $BROWN_800;
+  border-radius: 10px;
+  margin-bottom: 2px;
+  color: white;
+  &:hover {
+    background-color: $RED_600;
+  }
+}
+
+.title {
+  color: rgb(145, 26, 29);
+  font-size: 24px;
+}
+
+.add-btn {
+  width: 200px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $BROWN_500;
+  border-radius: 10px;
+  margin-bottom: 2px;
+  color: white;
+  &:hover {
+    background-color: $RED_600;
+  }
+}

@@ -1,0 +1,77 @@
+@import "../../style/variable.scss";
+@import "../../style/base.scss";
+
+.statistical {
+  &-heading {
+    color: $BROWN_500;
+    margin-bottom: 15px;
+    font-size: 24px;
+  }
+  &-content-one {
+    display: flex;
+    gap: 20px;
+    &-item {
+      width: 328px;
+      height: 185px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      padding: 30px 30px;
+      background-color: white;
+      border-radius: 16px;
+      box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+    }
+    .item-heading {
+      display: flex;
+      width: 100%;
+      justify-content: space-between;
+      &-content {
+        p {
+          color: hsla(0, 0%, 0%, 0.6);
+          font-weight: bold;
+        }
+        h3 {
+          font-size: 28px;
+          margin-top: 20px;
+        }
+      }
+      &-icon {
+        width: 66px;
+        height: 66px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $BROWN_50;
+        border-radius: 24px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+      }
+    }
+    .item-content {
+      display: flex;
+      align-items: center;
+      p {
+        margin-left: 10px;
+        span {
+          color: $BROWN_500;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  &-content-two {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    &-heading {
+      margin-top: 60px;
+      color: $BROWN_500;
+    }
+    &-wrapper {
+      display: flex;
+      gap: 20px;
+      h3 {
+        color: $BROWN_500;
+      }
+    }
+  }
+}

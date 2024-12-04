@@ -1,0 +1,27 @@
+@import "../../../../../style/variable";
+@import "../../../../../style/base";
+
+.table {
+  margin: 20px 0;
+}
+.table-row {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  display: grid;
+  //   grid-template-columns: 1fr 3fr 2.5fr 2.5fr 2fr 2fr 1.5fr;
+  height: max-content;
+  .table-col {
+    padding: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    word-break: break-all;
+  }
+}
+
+.table-row--brown {
+  background-color: $BROWN_500;
+  color: white;
+}
+.pet-table {
+  grid-template-columns: 1fr 2fr 3fr 2fr 2fr 2fr 2fr !important;
+}

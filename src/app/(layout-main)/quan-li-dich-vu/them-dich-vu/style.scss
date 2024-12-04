@@ -1,0 +1,68 @@
+@import "../../../../style/variable.scss";
+@import "../../../../style/base.scss";
+
+.image-choose-custom {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 97px;
+  height: 40px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+  margin: 10px 0 20px 0;
+}
+.image-choose-custom + input {
+  display: none;
+}
+.input-row {
+  display: flex;
+  gap: 20px;
+}
+.input-group {
+  margin-bottom: 20px;
+  label {
+    color: $BROWN_500;
+    display: block;
+    margin-bottom: 10px;
+  }
+  input[type="text"] {
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 40px;
+    padding: 0 10px;
+    &:focus {
+      border: 1px solid $BROWN_500;
+      box-shadow: 0 0 8px $BROWN_500;
+    }
+  }
+}
+
+.btn-group {
+  width: 791px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn {
+  width: 212px;
+  height: 52px;
+  border-radius: 10px;
+  cursor: pointer;
+  &-cancel {
+    background-color: transparent;
+    border: 1px solid $BROWN_500;
+    color: $BROWN_500;
+    &:hover {
+      background-color: $BROWN_500;
+      color: white;
+    }
+  }
+  &-save {
+    background-color: $BROWN_500;
+    color: white;
+    border: 0px;
+    &:hover {
+      background-color: $RED_600;
+    }
+  }
+}
