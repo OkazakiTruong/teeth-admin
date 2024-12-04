@@ -6,8 +6,8 @@ import Footer from "@/components/Footer/Footer";
 import ToastifyContainer from "../ToastifyContainer";
 
 export const metadata = {
-  title: "Petpals - Chữa lành từ trái tim",
-  description: "Petpals",
+  title: "Dental Clinic - Toả sáng nụ cười Việt",
+  description: "Dental Clinic",
 };
 
 export default function RootLayout({ children }) {

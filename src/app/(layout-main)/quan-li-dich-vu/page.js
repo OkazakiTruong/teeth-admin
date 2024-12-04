@@ -69,7 +69,7 @@ const data = [
     img: "/img/service-img/lay_cao_rang.jpg",
     name: "Lấy cao răng",
     detail:
-      "Răng thú cưng ố vàng làm mất thẩm mỹ, mảng bám làm miệng có mùi hôi, viêm lợi, sâu răng, và khó khăn trong việc ăn uống? Đừng lo, Petpals đã có giải pháp lý tưởng cho thú cưng của bạn!",
+      "Răng thú cưng ố vàng làm mất thẩm mỹ, mảng bám làm miệng có mùi hôi, viêm lợi, sâu răng, và khó khăn trong việc ăn uống? Đừng lo, Dental Clinic đã có giải pháp lý tưởng cho thú cưng của bạn!",
     link: "/dich-vu/lay-cao-rang",
   },
   {
