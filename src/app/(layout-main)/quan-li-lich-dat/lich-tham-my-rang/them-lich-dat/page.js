@@ -103,7 +103,6 @@ export default function Page() {
             <input
               type="text"
               placeholder="Nhập họ và tên"
-              value={booking.userName}
             />
           </div>
           <div className="input-group">
@@ -111,7 +110,6 @@ export default function Page() {
             <input
               type="text"
               placeholder="Nhập Số điện thoại"
-              value={booking.userNumber}
             />
           </div>
         </div>
@@ -121,7 +119,6 @@ export default function Page() {
             <input
               type="text"
               placeholder="Nhập họ và tên"
-              value={booking.userEmail}
             />
           </div>
           <div className="input-group">
@@ -163,7 +160,6 @@ export default function Page() {
           <div className="input-group">
             <label htmlFor="">Ghi chú</label>
             <textarea
-              value={data?.petNote}
               type="text"
               placeholder="Tháo mắc cài"
               style={{
