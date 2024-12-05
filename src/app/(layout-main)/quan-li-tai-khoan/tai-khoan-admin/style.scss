@@ -1,7 +1,7 @@
 @import "../../../../style/variable.scss";
 @import "../../../../style/base.scss";
 
-.table-row {
+.table-row5 {
   display: grid;
   grid-template-columns: 0.75fr 2.5fr 1fr 1fr 2fr 3fr 1.5fr 1.5fr;
   background-color: white;
@@ -12,7 +12,7 @@
   background-color: $BROWN_500;
   color: white;
 }
-.table-column {
+.table-column5 {
   display: flex;
   justify-content: start;
   align-items: center;

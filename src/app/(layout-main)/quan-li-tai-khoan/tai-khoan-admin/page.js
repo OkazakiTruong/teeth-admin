@@ -246,38 +246,38 @@ export default function Page() {
         </Link>
       </div>
       <div className="table">
-        <div className="table-row table-heading">
-          <div className="table-column first-column">Stt</div>
-          <div className="table-column">Tên tài khoản</div>
-          <div className="table-column">Chức vụ</div>
-          <div className="table-column">Giới tính</div>
-          <div className="table-column">Số điện thoại</div>
-          <div className="table-column">Email</div>
-          <div className="table-column">Trạng thái</div>
-          <div className="table-column">Thao tác</div>
+        <div className="table-row5 table-heading">
+          <div className="table-column5 first-column">Stt</div>
+          <div className="table-column5">Tên tài khoản</div>
+          <div className="table-column5">Chức vụ</div>
+          <div className="table-column5">Giới tính</div>
+          <div className="table-column5">Số điện thoại</div>
+          <div className="table-column5">Email</div>
+          <div className="table-column5">Trạng thái</div>
+          <div className="table-column5">Thao tác</div>
         </div>
         {account.map((acc, index) => {
           return (
-            <div className="table-row" key={index}>
-              <div className="table-column first-column">{index + 1}</div>
+            <div className="table-row5" key={index}>
+              <div className="table-column5 first-column">{index + 1}</div>
               <div
-                className="table-column"
+                className="table-column5"
               // style={{ display: "flex", justifyContent: "flex-start" }}
               >
                 {acc.name}
               </div>
-              <div className="table-column">{acc.position}</div>
-              <div className="table-column">
+              <div className="table-column5">{acc.position}</div>
+              <div className="table-column5">
                 {acc.gender && "Nam"}
                 {!acc.gender && "Nữ"}
               </div>
-              <div className="table-column">{acc.phoneNumber}</div>
-              <div className="table-column">{acc.email}</div>
-              <div className="table-column">
+              <div className="table-column5">{acc.phoneNumber}</div>
+              <div className="table-column5">{acc.email}</div>
+              <div className="table-column5">
                 {acc.status && "Kích hoạt"}
                 {!acc.status && "Chưa kích hoạt"}
               </div>
-              <div className="table-column table-edit">
+              <div className="table-column5 table-edit">
                 <Image
                   src="/icon/tabler_edit.svg"
                   alt="edit"

@@ -24,13 +24,6 @@ const data = [
     link: "/dich-vu/dieu-tri-sau-rang",
   },
   {
-    img: "/img/service-img/kham_benh.jpg",
-    name: "Khám và điều trị bệnh",
-    detail:
-      "Thực hiện tiếp nhận, sàng lọc, khám chuyên khoa,  xét nghiệm, chuẩn đoán và điều trị bệnh cho thú cưng.",
-    link: "/dich-vu/kham-suc-khoe",
-  },
-  {
     img: "/img/service-img/viem-nha-chu.webp",
     name: "Viêm nha chu",
     detail:
@@ -64,13 +57,6 @@ const data = [
     detail:
       "Dán răng sứ Veneer là sử dụng miếng dán sứ mỏng, gắn cố định lên bề mặt răng giúp răng trắng sáng đồng thời bảo vệ răng khỏi các tác nhân bên ngoài.",
     link: "/dich-vu/dan-su-veneer",
-  },
-  {
-    img: "/img/service-img/lay_cao_rang.jpg",
-    name: "Lấy cao răng",
-    detail:
-      "Răng thú cưng ố vàng làm mất thẩm mỹ, mảng bám làm miệng có mùi hôi, viêm lợi, sâu răng, và khó khăn trong việc ăn uống? Đừng lo, Dental Clinic đã có giải pháp lý tưởng cho thú cưng của bạn!",
-    link: "/dich-vu/lay-cao-rang",
   },
   {
     img: "/img/service-img/boc-su.webp",
@@ -170,20 +156,20 @@ export default function Page() {
         </Link>
       </div>
       <div className="table">
-        <div className="table-row table-heading">
-          <div className="table-column first-column">Stt</div>
-          <div className="table-column">Hình ảnh</div>
-          <div className="table-column">Tiêu đề</div>
-          <div className="table-column">Nội dung</div>
-          <div className="table-column">Ngày đăng</div>
-          <div className="table-column">Người viết</div>
-          <div className="table-column">Tùy chọn</div>
+        <div className="table-row4 table-heading">
+          <div className="table-column4 first-column">Stt</div>
+          <div className="table-column4">Hình ảnh</div>
+          <div className="table-column4">Tiêu đề</div>
+          <div className="table-column4">Nội dung</div>
+          <div className="table-column4">Ngày đăng</div>
+          <div className="table-column4">Người viết</div>
+          <div className="table-column4">Tùy chọn</div>
         </div>
         {articleList.map((article, index) => {
           return (
-            <div className="table-row" key={article.id}>
-              <div className="table-column first-column">{index + 1}</div>
-              <div className="table-column">
+            <div className="table-row4" key={article.id}>
+              <div className="table-column4 first-column">{index + 1}</div>
+              <div className="table-column4">
                 <Image
                   src={article.img}
                   width={40}
@@ -192,19 +178,19 @@ export default function Page() {
                 />
               </div>
               <div
-                className="table-column"
+                className="table-column4"
                 style={{ display: "flex", justifyContent: "flex-start" }}
               >
                 {article.name}
               </div>
               <div
-                className="table-column column-content"
+                className="table-column4 column-content"
               >
                 {article.detail}
               </div>
-              <div className="table-column">08/07/2018</div>
-              <div className="table-column">Đặng Thị Minh Thanh</div>
-              <div className="table-column table-edit">
+              <div className="table-column4">08/07/2018</div>
+              <div className="table-column4">Đặng Thị Minh Thanh</div>
+              <div className="table-column4 table-edit">
                 <Image
                   src="/icon/tabler_edit.svg"
                   alt="edit"

@@ -225,20 +225,20 @@ export default function Page() {
         </Link>
       </div>
       <div className="table">
-        <div className="table-row table-heading">
-          <div className="table-column first-column">Stt</div>
-          <div className="table-column">Hình ảnh</div>
-          <div className="table-column">Tiêu đề</div>
-          <div className="table-column">Nội dung</div>
-          <div className="table-column">Ngày đăng</div>
-          <div className="table-column">Người viết</div>
-          <div className="table-column">Tùy chọn</div>
+        <div className="table-row2 table-heading">
+          <div className="table-column2 first-column">Stt</div>
+          <div className="table-column2">Hình ảnh</div>
+          <div className="table-column2">Tiêu đề</div>
+          <div className="table-column2">Nội dung</div>
+          <div className="table-column2">Ngày đăng</div>
+          <div className="table-column2">Người viết</div>
+          <div className="table-column2">Tùy chọn</div>
         </div>
         {articleList.map((article, index) => {
           return (
-            <div className="table-row" key={article.id}>
-              <div className="table-column first-column">{index + 1}</div>
-              <div className="table-column">
+            <div className="table-row2" key={article.id}>
+              <div className="table-column2 first-column">{index + 1}</div>
+              <div className="table-column2">
                 <Image
                   src={article.img}
                   width={40}
@@ -246,11 +246,11 @@ export default function Page() {
                   style={{ objectFit: "cover" }}
                 />
               </div>
-              <div className="table-column">{article.title}</div>
-              <div className="table-column">{article.detail}</div>
-              <div className="table-column">{article.date}</div>
-              <div className="table-column">{article.author}</div>
-              <div className="table-column table-edit">
+              <div className="table-column2">{article.title}</div>
+              <div className="table-column2">{article.detail}</div>
+              <div className="table-column2">{article.date}</div>
+              <div className="table-column2">{article.author}</div>
+              <div className="table-column2 table-edit">
                 <Image
                   src="/icon/tabler_edit.svg"
                   alt="edit"
