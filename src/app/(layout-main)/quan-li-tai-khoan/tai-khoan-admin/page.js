@@ -247,7 +247,7 @@ export default function Page() {
       </div>
       <div className="table">
         <div className="table-row table-heading">
-          <div className="table-column">Stt</div>
+          <div className="table-column first-column">Stt</div>
           <div className="table-column">Tên tài khoản</div>
           <div className="table-column">Chức vụ</div>
           <div className="table-column">Giới tính</div>
@@ -259,7 +259,7 @@ export default function Page() {
         {account.map((acc, index) => {
           return (
             <div className="table-row" key={index}>
-              <div className="table-column">{index + 1}</div>
+              <div className="table-column first-column">{index + 1}</div>
               <div
                 className="table-column"
               // style={{ display: "flex", justifyContent: "flex-start" }}

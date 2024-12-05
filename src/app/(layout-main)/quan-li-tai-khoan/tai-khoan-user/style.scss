@@ -14,8 +14,12 @@
 }
 .table-column {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
+  padding: 0 10px;
+}
+.first-column {
+  justify-content: center;
 }
 .table-edit {
   justify-content: space-between;
@@ -36,6 +40,7 @@
   color: white;
   &:hover {
     background-color: $RED_600;
+    opacity: 0.7;
   }
 }
 
@@ -56,5 +61,6 @@
   color: white;
   &:hover {
     background-color: $RED_600;
+    opacity: 0.7;
   }
 }

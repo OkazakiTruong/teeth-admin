@@ -15,8 +15,12 @@
 }
 .table-column {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
+  padding: 0 10px;
+}
+.first-column {
+  justify-content: center;
 }
 .table-edit {
   justify-content: space-between;
@@ -31,12 +35,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: $BROWN_500;
+  background-color: $BROWN_800;
   border-radius: 10px;
   margin-bottom: 2px;
   color: white;
   &:hover {
     background-color: $RED_600;
+    opacity: 0.7;
   }
 }
 

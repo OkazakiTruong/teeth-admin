@@ -569,7 +569,7 @@ export default function Page() {
       </div>
       <div className="table">
         <div className="table-row table-heading">
-          <div className="table-column">Stt</div>
+          <div className="table-column first-column">Stt</div>
           <div className="table-column">Mã lịch đặt</div>
           <div className="table-column">Khách hàng</div>
           <div className="table-column">Số điện thoại</div>
@@ -580,7 +580,7 @@ export default function Page() {
         {bookingData.map((booking, index) => {
           return (
             <div className="table-row" key={booking.id}>
-              <div className="table-column">{index + 1}</div>
+              <div className="table-column first-column">{index + 1}</div>
               <div className="table-column">{booking.id}</div>
               <div className="table-column">{booking.userName}</div>
               <div className="table-column">{booking.userNumber}</div>

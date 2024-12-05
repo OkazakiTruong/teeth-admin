@@ -51,7 +51,7 @@ export default function Header() {
                   className="menu-item"
                 >
                   <span className="content">
-                    Có lịch đặt thăm khám mới từ khách hàng: Bùi Quang Trưởng
+                    Có lịch đặt thăm khám mới từ khách hàng: Đặng Thị Minh Thanh
                   </span>
                   <span className="time">2024-04-13</span>
                 </a>
@@ -60,7 +60,7 @@ export default function Header() {
                   className="menu-item"
                 >
                   <span className="content">
-                    Có lịch đặt thăm khám mới từ khách hàng: Bùi Quang Trưởng
+                    Có lịch đặt thăm khám mới từ khách hàng: Đặng Thị Minh Thanh
                   </span>
                   <span className="time">2024-04-19</span>
                 </a>
@@ -72,7 +72,7 @@ export default function Header() {
             style={{ display: "flex", gap: "9px", alignItems: "center" }}
           >
             <Image
-              src="/img/doctor/hoang_an.jpg"
+              src="/img/doctor/bac_si.png"
               width={62}
               height={62}
               style={{ borderRadius: "50%", objectFit: "cover" }}

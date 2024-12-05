@@ -26,13 +26,12 @@
     margin-bottom: 10px;
   }
   input[type="text"] {
-    border: 1px solid black;
+    border: 1px solid #808080;
     border-radius: 10px;
     height: 40px;
     padding: 0 10px;
     &:focus {
-      border: 1px solid $BROWN_500;
-      box-shadow: 0 0 8px $BROWN_500;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     }
   }
 }

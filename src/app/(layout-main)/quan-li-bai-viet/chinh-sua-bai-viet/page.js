@@ -27,7 +27,7 @@ export default function Page() {
           marginBottom: "10px",
           fontSize: 20,
           fontWeight: 400,
-          color: "#911A1D",
+          color: "#60B8D6",
         }}
       >
         Chọn ảnh nền:

@@ -4,7 +4,7 @@
 .table-row {
   width: 1005;
   display: grid;
-  grid-template-columns: 1fr 4fr 2fr 2fr 2fr 3fr 2fr;
+  grid-template-columns: 1fr 4fr 2fr 2fr 2fr 1.5fr 2fr;
   background-color: white;
   padding: 10px 0px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.25);
@@ -15,8 +15,12 @@
 }
 .table-column {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
+  padding: 0 10px;
+}
+.first-column {
+  justify-content: center;
 }
 .table-edit {
   justify-content: space-between;
@@ -37,6 +41,7 @@
   color: white;
   &:hover {
     background-color: $RED_600;
+    opacity: 0.7;
   }
 }
 

@@ -226,7 +226,7 @@ export default function Page() {
       </div>
       <div className="table">
         <div className="table-row table-heading">
-          <div className="table-column">Stt</div>
+          <div className="table-column first-column">Stt</div>
           <div className="table-column">Hình ảnh</div>
           <div className="table-column">Tiêu đề</div>
           <div className="table-column">Nội dung</div>
@@ -237,7 +237,7 @@ export default function Page() {
         {articleList.map((article, index) => {
           return (
             <div className="table-row" key={article.id}>
-              <div className="table-column">{index + 1}</div>
+              <div className="table-column first-column">{index + 1}</div>
               <div className="table-column">
                 <Image
                   src={article.img}
