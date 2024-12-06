@@ -512,7 +512,7 @@ export default function Page() {
 
   return (
     <section className="section">
-      <h1 className="section-heading">QUẢN LÝ LỊCH ĐẶT/ KHÁCH SẠN THÚ CƯNG</h1>
+      <h1 className="section-heading">QUẢN LÝ LỊCH ĐẶT/ KHÁM RĂNG</h1>
       <div
         className="filter"
         style={{

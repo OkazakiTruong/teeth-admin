@@ -510,7 +510,7 @@ export default function Page() {
       >
         <p>Bạn có chắc chắn muốn xóa thông tin lịch đặt không?</p>
       </Modal>
-      <h1 className="section-heading">QUẢN LÝ LỊCH ĐẶT/ LỊCH THĂM KHÁM</h1>
+      <h1 className="section-heading">QUẢN LÝ LỊCH ĐẶT/ CHĂM SÓC RĂNG</h1>
       <div
         className="filter"
         style={{
