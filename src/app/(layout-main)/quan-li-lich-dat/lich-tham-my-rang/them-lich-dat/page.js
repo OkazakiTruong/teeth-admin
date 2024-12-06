@@ -42,7 +42,7 @@ export default function Page() {
         <p>Bạn có chắc chắn muốn xóa thông tin thú cưng?</p>
       </Modal>
       <h1 className="section-heading">
-        QUẢN LÝ LỊCH ĐẶT/ LỊCH THĂM KHÁM/ THÊM LỊCH ĐẶT
+        QUẢN LÝ LỊCH ĐẶT/ LỊCH THẨM MỸ RĂNG/ THÊM LỊCH ĐẶT
       </h1>
       <form action="" className="form">
         <h2>Thông tin lịch đặt</h2>
@@ -50,7 +50,7 @@ export default function Page() {
           <div className="input-group">
             <label htmlFor="">Loại lịch hẹn</label>
             <Select
-              defaultValue="Thăm khám"
+              defaultValue="Thẩm mỹ răng"
               style={{
                 width: 444,
                 height: 40,
@@ -59,7 +59,7 @@ export default function Page() {
               options={[
                 {
                   value: "kbBooking",
-                  label: "Thăm khám",
+                  label: "Thẩm mỹ răng",
                 },
               ]}
             />

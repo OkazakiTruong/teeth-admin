@@ -42,7 +42,7 @@ export default function Page() {
         <p>Bạn có chắc chắn muốn xóa thông tin thú cưng?</p>
       </Modal>
       <h1 className="section-heading">
-        QUẢN LÝ LỊCH ĐẶT/ LỊCH THĂM KHÁM/ THÊM LỊCH ĐẶT
+        QUẢN LÝ LỊCH ĐẶT/ LỊCH CHĂM SÓC RĂNG/ THÊM LỊCH ĐẶT
       </h1>
       <form action="" className="form">
         <h2>Thông tin lịch đặt</h2>
@@ -50,7 +50,7 @@ export default function Page() {
           <div className="input-group">
             <label htmlFor="">Loại lịch hẹn</label>
             <Select
-              defaultValue="Thăm khám"
+              defaultValue="Chăm sóc răng"
               style={{
                 width: 444,
                 height: 40,
@@ -59,7 +59,7 @@ export default function Page() {
               options={[
                 {
                   value: "kbBooking",
-                  label: "Thăm khám",
+                  label: "Chăm sóc răng",
                 },
               ]}
             />
@@ -113,41 +113,21 @@ export default function Page() {
             <input type="text" placeholder="Nhập họ và tên" />
           </div>
         </div>
-        <h2>Danh sách thú cưng:</h2>
-
-        {[...Array(numberPet)].map((item, index) => {
-          return (
-            <>
-              <div
-                style={{
-                  display: "flex",
-                  width: "909px",
-                  justifyContent: "space-between",
-                }}
-              >
-                <h2>Thông tin thú cưng {index + 1}:</h2>
-                <img
-                  src="/icon/mdi_trash.svg"
-                  alt=""
-                  style={{ cursor: "pointer" }}
-                  onClick={showModal}
-                />
-              </div>
-              <PetItem type={1} />
-            </>
-          );
-        })}
-        <hr />
-        <button
-          className="add-new-pet-btn"
-          onClick={() => {
-            setNumberPet(numberPet + 1);
-          }}
-          type="button"
-        >
-          + Thêm thú cưng
-        </button>
-        <hr />
+        <div className="input-row">
+          <div className="input-group">
+            <label htmlFor="">Ghi chú</label>
+            <textarea
+              type="text"
+              placeholder="Tháo mắc cài"
+              style={{
+                width: 905,
+                height: "272px",
+                padding: 10,
+                borderRadius: 10,
+              }}
+            />
+          </div>
+        </div>
         <div className="btn-group">
           <button
             className="btn btn-cancel"

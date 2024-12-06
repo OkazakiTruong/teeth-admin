@@ -591,41 +591,21 @@ export default function Page({ params }) {
             />
           </div>
         </div>
-        <h2>Danh sách thú cưng:</h2>
-
-        {booking.userPets.map((item, index) => {
-          return (
-            <>
-              <div
-                style={{
-                  display: "flex",
-                  width: "909px",
-                  justifyContent: "space-between",
-                }}
-              >
-                <h2>Thông tin thú cưng {index + 1}:</h2>
-                <img
-                  src="/icon/mdi_trash.svg"
-                  alt=""
-                  style={{ cursor: "pointer" }}
-                  onClick={showModal}
-                />
-              </div>
-              <PetItem type={1} data={item} />
-            </>
-          );
-        })}
-        <hr />
-        <button
-          className="add-new-pet-btn"
-          onClick={() => {
-            setNumberPet(numberPet + 1);
-          }}
-          type="button"
-        >
-          + Thêm thú cưng
-        </button>
-        <hr />
+        <div className="input-row">
+          <div className="input-group">
+            <label htmlFor="">Ghi chú</label>
+            <textarea
+              type="text"
+              placeholder="Tháo mắc cài"
+              style={{
+                width: 905,
+                height: "272px",
+                padding: 10,
+                borderRadius: 10,
+              }}
+            />
+          </div>
+        </div>
         <div className="btn-group">
           <button
             className="btn btn-cancel"

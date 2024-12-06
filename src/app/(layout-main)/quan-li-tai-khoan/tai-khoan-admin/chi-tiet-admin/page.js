@@ -77,7 +77,7 @@ export default function Page() {
               objectFit: "cover",
             }}
           />
-          <h3 style={{ fontSize: "20px", color: "#911A1D", marginTop: "10px" }}>
+          <h3 style={{ fontSize: "20px", color: "#60b8d6", marginTop: "10px" }}>
             Tạ Hoàng An
           </h3>
           <p style={{ marginTop: "10px" }}>tahoangan@gmail.com</p>
